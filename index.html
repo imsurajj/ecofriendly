@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoFriendly - Sustainable Solutions</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -33,8 +34,8 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li class="mobile-only"><a href="contact.html" class="contact-btn">Contact Us</a></li>
                 </ul>
-                <a href="contact.html" class="contact-btn">Contact Us</a>
                 <button class="mobile-menu-btn">
                     <span></span>
                     <span></span>
@@ -79,82 +80,48 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
+    <section class="features" id="features">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">Why Choose EcoFriendly</h2>
-            <p class="section-subtitle" data-aos="fade-up">Experience the future of environmental sustainability with our innovative solutions designed to create lasting positive impact</p>
-            
-            <div class="features-wrapper">
-                <div class="features-grid">
-                    <!-- Carbon Tracking -->
-                    <div class="feature-card" data-aos="fade-up">
-                        <div class="feature-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Carbon Tracking</h3>
-                            <p>Real-time monitoring and analysis of your carbon footprint with precision metrics, empowering you to make environmentally conscious decisions.</p>
-                        </div>
-                    </div>
+            <div class="section-header">
+                <span class="section-subtitle">What We Offer</span>
+                <h2 class="section-title">Sustainable Solutions for a Better Tomorrow</h2>
+                <p class="section-description">Discover our comprehensive range of eco-friendly solutions designed to help you make a positive impact on the environment.</p>
+            </div>
 
-                    <!-- Smart Analytics -->
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Smart Analytics</h3>
-                            <p>Advanced AI algorithms provide personalized insights and actionable recommendations to optimize your environmental impact.</p>
-                        </div>
+            <div class="features-grid">
+                <!-- Eco-Friendly Products -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
                     </div>
+                    <h3>Eco-Friendly Products</h3>
+                    <p>Explore our curated collection of sustainable products that reduce environmental impact while maintaining quality.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
 
-                    <!-- 24/7 Support -->
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-icon">
-                            <i class="fas fa-headset"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>24/7 Support</h3>
-                            <p>Dedicated expert support team available around the clock to assist you in achieving your sustainability objectives.</p>
-                        </div>
+                <!-- Waste Management -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-recycle"></i>
                     </div>
+                    <h3>Waste Management</h3>
+                    <p>Innovative solutions for reducing, reusing, and recycling waste to minimize environmental footprint.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
 
-                    <!-- Solar Solutions -->
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-icon">
-                            <i class="fas fa-solar-panel"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Solar Solutions</h3>
-                            <p>Cutting-edge solar integration technology that transforms your infrastructure into an efficient, renewable energy powerhouse.</p>
-                        </div>
+                <!-- Renewable Energy -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-solar-panel"></i>
                     </div>
-
-                    <!-- Water Management -->
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-                        <div class="feature-icon">
-                            <i class="fas fa-water"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Water Management</h3>
-                            <p>Intelligent water conservation systems that maximize efficiency and minimize waste through smart monitoring and control.</p>
-                        </div>
-                    </div>
-
-                    <!-- Impact Analytics -->
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-                        <div class="feature-icon">
-                            <i class="fas fa-chart-pie"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Impact Analytics</h3>
-                            <p>Comprehensive environmental impact dashboard with detailed metrics and visualizations to track your sustainability journey.</p>
-                        </div>
-                    </div>
+                    <h3>Renewable Energy</h3>
+                    <p>Harness the power of sustainable energy sources with our advanced renewable energy solutions.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing">
@@ -226,6 +193,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- FAQ Section -->
     <section id="faq" class="faq">
